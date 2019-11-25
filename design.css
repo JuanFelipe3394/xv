@@ -1,0 +1,438 @@
+/*Edição da página Index.html*/
+
+#site {
+	background-color: #ffffcc;
+	font-family:Arial;
+}
+
+#header {
+	height:100px;
+	width:1050px;
+	background-color:#000000;
+	position:relative;
+	left:100px;
+}
+
+#header-left {
+	height:90px;
+	width:120px;
+	background-color:#ffffcc;
+	position:relative;
+	float:left;
+}
+
+#header-right {
+	height:90px;
+	width:930px;
+	background-color:#ffffcc;
+	position:relative;
+	float:right;
+}
+
+#content {
+	height:600px;
+	width:1050px;
+	background-color:#ffffcc;
+	position:relative;
+	left:100px;
+}
+
+#content-one {
+	height:680px;
+	width:1050px;
+	background-color:#ffffcc;
+	position:relative;
+}
+
+#content-two {
+	height:500px;
+	width:330px;
+	background-color:#ffffcc;
+	position:relative;
+	float:left;
+}
+
+#content-three {
+	height:500px;
+	width:350px;
+	background-color:#ffffcc;
+	position:relative;
+	float:right;
+}
+
+#content-four {
+	height:500px;
+	width:350px;
+	background-color:#ffffcc;
+	position:relative;
+	float:right;
+}	
+
+#footer {
+	height:250px;
+	width:1255px;
+	background-color:#cccccc;
+	position:relative;
+	float:left;
+}
+
+#footer-left {
+	width:300px;
+	height:250px;
+	background-color:#cccccc;
+	position:relative;
+	float:left;
+	padding-left:8em;
+}
+
+#footer-right {
+	width:750px;
+	height:250px;
+	background-color:#cccccc;
+	position:relative;
+	float:right;
+}
+
+.logomarca {
+	border:1px solid;
+	border-radius:60px;
+	width:100px;
+	height:90px;
+}
+
+.colegio {
+	height:300px;
+	width:455px;
+}
+
+.colegio2 {
+	height:200px;
+	width:440px;
+}
+
+.links {
+	color:black;
+	font-size:15px;
+}
+
+.size {
+	font-size:30px;
+}
+
+.size2 {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.imagens {
+	width:100px;
+	height:100px;
+}
+
+.social {
+	width:40px;
+	height:40px;
+}
+
+/*Edição da página contato.html*/
+
+#c1 {
+	width:800px;
+	position:relative;
+	float:left;
+}
+
+#c1-one {
+	width:450px;
+}
+
+#c2 {
+	width:1020px;
+	height:250px;
+	background-color:#ffffff;
+	padding-left:2em;
+	position:relative;
+	float:right;
+}
+
+#separar {
+	width:100px;
+	height:100px;
+	position:relative;
+	float:right;
+}
+
+#c3 {
+	width:1050px;
+	background-color:#ffffff;
+	position:relative;
+	float:right;
+}
+
+#c3-one {
+	width:300px;
+	height:200px;
+	background-color:#ffffff;
+	position:relative;
+	float:right;
+}
+
+#c3-two {
+	width:500px;
+	height:200px;
+	background-color:#ffffff;
+	position:relative;
+	float:left;
+	padding-left:2em;
+}
+
+.size3 {
+	font-size:30px;
+	color:#ffffff;
+	background-color:#66ff99;
+}
+
+.size4 {
+	font-size:20px;
+}
+
+.enviar {
+	font-size:20px;
+	color:#ffffff;
+	background-color:#66ff99;
+}
+
+.asterisco {
+	color:red;
+}
+
+.size5 {
+	font-size:30px;
+}
+
+/*Edição da página historico.html*/
+
+#h1 {
+	width:600px;
+	position:relative;
+	float:left;
+}
+
+#h2 {
+	width:1050;
+	position:relative;
+	float:left;
+}
+
+#h3 {
+	width:1050px;
+	position:relative;
+	float:left;
+}
+
+#h4 {
+	width:1050px;
+	position:relative;
+	float:left;
+}
+
+.size6 {
+	font-size:40px;
+	color:#ffffff;
+	background-color:#00009c;
+}
+
+.size7 {
+	font-size:30px;
+}
+
+.size8 {
+	font-size:20px;
+}
+
+/*Edição das páginas de Juan*/
+
+.but {
+display: inline-block;
+background-color:#00009c;
+color: #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+.but1 {
+display: inline-block;
+background-color:#66ff99;
+color: #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+.but2 {
+display: inline-block;
+background-color:#ff1cae;
+color: #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+.but3 {
+display: inline-block;
+background-color:#6b8e23;
+color: #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+.but4 {
+display: inline-block;
+background-color:#00009c;
+color: #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+.but5 {
+display: inline-block;
+background-color:#ff1cae;
+color: #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+margin-top:4px;
+}
+h2 {
+	background-color:#00009c;
+	color: #ffffff;
+}
+.img {
+	height: 120px;
+	width:120px;
+	border-style: double;
+	border-color: black;
+}
+#prof-esq {
+	height:1340px;
+	width:750px;
+	background-color:#ffffcc;
+	position:relative;
+	position:left;
+}
+nav{
+	background-color:#ffffcc;
+	float: left;
+	width: 50%;
+	height: 1300px;
+	position:relative;
+	float:left;
+}
+section{
+	background-color:#ffffcc;
+	float: right;
+	width: 50%;
+	height: 1300px;
+	position:relative;
+	float:left;
+}
+footer{
+	height: 300px;
+}
+h3 {
+	color: red;
+	border-style: solid;
+	border-color: black;
+	text-align: left;
+}
+h4 {
+	color: #ffffff;
+	background-color: #ff1cae;
+}
+.p1 {
+	background-color: #ff1cae;
+	color: #ffffff;
+}
+.but7 {
+display: inline-block;
+background-color: black;
+color: white;
+padding: 2px 10px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+
+/*Últimas correções*/
+.corespecial {
+	background-color:#ff1cae;
+}
+
+.ultimacor {
+	background-color: #ffffcc;
+}
+
+#form {
+	width:1255px;
+	height:600px;
+	color:black;
+	background-color:#ffffcc;
+	position:relative;
+	float:left;
+}
+
+.tam1 {
+	font-size:30px;
+	color:#ffffff;
+	background-color:#6b8e23;
+}
+
+#form-one {
+	width:600px;
+	height:250px;
+	background-color:#ffffff;
+	position:relative;
+	float:left;
+	padding:2em;
+}
+
+#form-two {
+	width:600px
+	height:250px;
+	background-color:#ffffff;
+	position:relative;
+	float:right;
+	padding:2em;
+}
+
+.nota {
+	color:#ffffff;
+	background-color:#6b8e23;
+	font-size:20px;
+}
+
+.butInicial {
+	background-color:#6b8e23;
+	color:#ffffff;
+	padding:10px;
+	text-decoration:none; /*retirar o sublinhado do link*/
+	font-size:14px;	
+}

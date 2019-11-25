@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="design.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="pais.css" type="text/css">  <meta name="keywords">
+  <style> body{
+  background-color: #DAA520
+  }
+</style>
+</head>
+
+<body class="pb-1">
+  <div class="py-0 bg-dark" style="">
+    <div class="container">
+      <div class="row">
+        <div class="bg-dark col-md-6" style=""></div>
+        <div class="bg-dark shadow-none col-md-6" style=""><a class="btn btn-lg btn-primary m-3 mx-3" href="aluno.html">Área dos alunos</a><a class="btn btn-lg btn-primary mx-3 m-3" href="pais.html">Área dos pais</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-0 bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"><a class="btn btn-light" href="index.html">Página Inicial</a></div>
+        <div class="col-md-2"><a class="btn btn-secondary text-dark" href="prof.html">Quem somos</a></div>
+        <div class="col-md-2"><a class="btn btn-secondary text-dark" href="cont.html">Contato/Cadastro</a></div>
+        <div class="col-md-2"><a class="btn text-white ml-5" href="#" style="background:#55acee" target="_blank"><i class="fa fa-twitter fa-fw fa-1x py-1 pl-0"></i></a></div>
+        <div class="col-md-2"><a class="btn text-white mx-4" href="#" style="background:#3b5998" target="_blank"><i class="fa fa-facebook fa-fw fa-1x py-1"></i></a></div>
+        <div class="col-md-2"><a class="btn text-white" href="#" style="background:#e52d27" target="_blank"><i class="fa fa-youtube-play fa-fw fa-1x py-1"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-0" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> &lt; </div>
+      </div>
+    </div>
+    <div class="py-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid d-block float-left" src="LogotipoRF.png" width="220" style=""></div>
+          <div class="col-md-8">
+            <h4 align="center" contenteditable="true">Área dos pais</h4>
+          </div>
+        </div>
+      </div>
+      <div class="py-5 text-center bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="mb-3">Formulário de Acompanhamento</h1>
+              <p>Bem vindo pais! esta página é direcionada especialmente para os pais dos alunos dessa instituição. Esse fomulário foi criado no intuito de melhor visualização das notas dos seu filhos no colégio e seu rendimento em nossa instituição. Ao final do formulário se não gostar da nota do seu filho, ligue ou visite nossa instituição, estaremos abertos a conversação.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="mx-auto p-4 col-md-6">
+              <h2 class="mb-4">Pesquise a nota do seu filho</h2>
+			  <form method="post" action="www.google.com">
+              <div class="form-group"><label>DIGITE O NOME DO RESPONSÁVEL</label><br><input type="text" name="pai" id="pai" size="30"></div>
+              <div class="form-group"><label contenteditable="true">DIGITE A MATRÍCULA DO ALUNO</label><br><input type="text" name="filho" id="filho" size="30"></div>
+              <button type="button" class="btn btn-primary"  onclick="mostrarNota()">Ver Nota</button>
+			  <div id="nota"></div>
+			  </form>
+            </div>
+            <div class="mx-auto p-4 col-md-6">
+              <h2 class="mb-4">Sua opinão é importante!</h2> Para avaliarmos o que vocês acharam dessa forma de acompanhamento, comente sobre sua experiência aproximadora ou encaminhe sugestões para melhorarmos: <form>
+                <div class="form-group"> </div>
+                <div class="form-group"> <textarea class="form-control" rows="3" placeholder="Escreva aqui sua opinião!" id="op" name="opiniao"></textarea> </div> <button type="button" class="btn btn-primary" onclick="enviar()">Enviar &gt;&gt;</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-0 bg-dark">
+        <div class="text-white bg-dark mt-1">
+          <div class="container">
+            <div class="row">
+              <div class="p-4 col-md-3">
+                <h2 class="mb-4">Rockefeller</h2>
+                <p>Uma escola que desenvolve o senso crítico e cidadão de seus alunos.</p>
+              </div>
+              <div class="p-4 col-md-3">
+                <h2 class="mb-4">Sobre</h2>
+                <ul class="list-unstyled text-white bg-dark">Inicio<br>Quem somos&nbsp;<br>Nos<a href="#" class="text-white">s</a>os serviços <br>Visão da estrutura</ul>
+              </div>
+              <div class="p-4 col-md-3 bg-dark">
+                <h2 class="mb-4">Contato</h2>
+                <p class="text-white bg-light"> <a href="#" class="text-dark">
+                    <i class="fa d-inline mr-3 text-muted fa-phone"></i>+246 - 542 550 5462</a> </p>
+                <p class="bg-light text-white"> <a href="#" class="text-dark">
+                    <i class="fa d-inline mr-3 text-muted fa-envelope-o"></i>info@Rockefeller.com</a></p>
+                <p class="text-white bg-light"> <a href="#" class="text-dark">
+                    <i class="fa d-inline mr-3 fa-map-marker text-muted"></i>365 Av. Rio grande, Natal RN</a> </p>
+              </div>
+              <div class="p-4 col-md-3">
+                <h2 class="mb-4">Inscreva-se</h2>
+                <form class="text-white">
+                  <fieldset class="form-group"> <label for="exampleInputEmail1">Cadastro newsletter</label> <input type="email" class="form-control" placeholder="Seu Email"> </fieldset> <button type="submit" class="btn btn-outline-dark text-white">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" style=""></script>
+       </div>
+    </div>
+  </div>
+</body>
+
+</html>
